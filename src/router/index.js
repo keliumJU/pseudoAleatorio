@@ -22,14 +22,27 @@ const routes = [
   },
   {
     path: "/cuadrados-medios",
-    name: "CuadradosMedios",
+    name: "cuadradosmedios",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: function() {
-      return import(/* webpackChunkName: "about" */ "../views/CuadradosMedios.vue");
+      return import(/* webpackchunkname: "about" */ "../views/CuadradosMedios.vue");
+    }
+  },
+  {
+    path: "/lineal-algo",
+    name: "lineal",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: function() {
+      return import(/* webpackchunkname: "about" */ "../views/Lineal.vue");
     }
   }
+
+
+
 ];
 
 const router = new VueRouter({
