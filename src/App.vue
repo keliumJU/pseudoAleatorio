@@ -3,7 +3,11 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/cuadrados-medios">Cuadrados Medios</router-link> |
+<<<<<<< HEAD
       <router-link to="/lineal-algo">Lineal Algoritmo</router-link> | 
+=======
+      <router-link to="/multiplicador-constante">MultiplicadorConstante</router-link> |
+>>>>>>> 52e7faddf0f92fedc844401034c81ee6079d4f21
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
