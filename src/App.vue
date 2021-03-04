@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/cuadrados-medios">Cuadrados Medios</router-link> |
+      <router-link to="/multiplicador-constante">MultiplicadorConstante</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
