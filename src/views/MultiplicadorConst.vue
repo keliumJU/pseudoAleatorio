@@ -1,6 +1,6 @@
 <template>
   <div class="cuad-medios">
-    <CpMultiplicadorConst msg="Welcome to Scuare Mid" />
+    <CpMultiplicadorConst msg="Welcome to Multiplier Const" />
   </div>
 </template>
 
